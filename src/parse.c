@@ -9,7 +9,7 @@
 // contains the info about a country's color and its neighbours.
 //
 // For each line:
-// (1) first word      -> colour of the country (default: "nocolor")
+// (1) first word      -> color of the country (default: "nocolor")
 // (2) second word     -> name of the country
 // (3) remaining words -> names of neighbouring countries
 //
