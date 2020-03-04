@@ -65,8 +65,17 @@ void terminate(char *msg) {
 // Deallocates the map description list
 
 void cleanup(List *map) {
-  for (int i = 0; i < MAX_COUNTRIES; i++)
+  for (int i = 0; i < MAX_COUNTRIES; i++) {
+    listNode curr = list_begin(map[i]);
+
+    // Deallocate memory for all the words in the current list
+    while (curr != list_end(map[i])) {
+      free(list_access(map[i], curr));
+      curr = list_next(map[i], curr);
+    }
+
     list_destroy(map[i]);
+  }
 
   free(map);
 }

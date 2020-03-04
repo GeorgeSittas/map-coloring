@@ -86,5 +86,12 @@ int main(int argc, char **argv) {
     printf("\n");
   }
 
+  // Memory cleanup
+  for (int i = 0; i < n_countries - 1; i++)
+    free(neighb[i]);
+
+  free(neighb);
+  free(color);
+
   return 0;
 }

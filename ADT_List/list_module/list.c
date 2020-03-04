@@ -46,7 +46,6 @@ listNode list_aux_new_node(char *str, listNode next) {
 // Destroys a list node (memory deallocation)
 
 void list_aux_destroy_node(listNode node) {
-  free(node->str);
   free(node);
 }
 
