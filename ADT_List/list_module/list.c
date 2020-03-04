@@ -20,7 +20,7 @@
 struct list {
   listNode dummy;
   listNode last;
-  unsigned size;
+  size_t size;
 };
 
 struct list_node {
@@ -84,7 +84,7 @@ void list_print(List list) {
 
 // Returns the list's size (number of nodes in the list)
 
-unsigned list_size(List list) {
+size_t list_size(List list) {
   return list->size;
 }
 

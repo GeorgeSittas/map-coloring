@@ -34,7 +34,7 @@ void list_print(List list);
 
 // Returns the list's size (number of nodes in the list)
 
-unsigned list_size(List list);
+size_t list_size(List list);
 
 // Returns true if the list is empty, false otherwise
 
