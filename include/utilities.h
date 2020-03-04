@@ -22,11 +22,6 @@ extern struct options options;
 
 void process_CLA(int argc, char **argv);
 
-// [Auxiliary] Function that compares two countries, based on the
-// number of their neighbours (needed for qsort)
-
-int comparator(const void *p, const void *q);
-
 // Prints msg and terminates the program
 
 void terminate(char *msg);
