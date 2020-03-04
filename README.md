@@ -85,7 +85,7 @@ with bigger degrees are colored first (this is [well known heuristic approach in
 strings (as maps become bigger and/or more dense, the string methods can cause the program to\
 slow down significantly).
 
-- **Create a lookup table**, in order to [avoid searching the whole adjacency list to find a country's\
+- **Create a lookup table**, in order to [avoid searching the adjacency list linearly to find a country's\
 index](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/color.c#L89-L97).
 
 - **Keep track of the available colors** for each country, as the coloring process progresses, so that no\
