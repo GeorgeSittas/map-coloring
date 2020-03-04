@@ -41,15 +41,11 @@ int main(int argc, char **argv) {
   // Heuristic: high degree countries (vertices) will be colored first
   sort_map(map);
 
-  // If map can be colored && the coloring is valid, print the result.
-  // Otherwise notify the user that the map couldn't be colored
+  // If map can be colored, print the result. Otherwise, notify
+  // the user that the map couldn't be colored
 
-  if (color_map(map, colors, n_colors) == true) {
-    if (is_valid_coloring(map, colors, max_colors, n_colors))
-      map_print(non_sorted_map);
-    else
-      printf("If you can see this message, it's time for debugging\n");
-  }
+  if (color_map(map, colors, n_colors) == true)
+    map_print(non_sorted_map);
   else
     printf("The map cannot be colored with %d colors\n", n_colors);
 
