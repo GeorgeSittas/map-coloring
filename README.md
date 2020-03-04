@@ -94,7 +94,7 @@ for a country is crucial, since having a list of "available colors" becomes memo
 One simple approach that can solve this problem, is to encode the available colors as a binary string (int)\
 that has as many bits as the total number of colors, and then process this string using bitwise operators.
 
-- **Try a different heuristic approach**, such as prioritizing countries that have less available colors.\
+- **Try a different heuristic approach**, such as prioritizing countries that have less available colors.
 
 \
 [1] see also: https://en.wikipedia.org/wiki/Graph_coloring
