@@ -61,7 +61,7 @@ In order to pass the _optional_ arguments, one must provide them in the order se
 
 #### Examples
 ```
-./mapcol -i input_maps/Europe.txt               // Colors Europe.txt
+./mapcol < input_maps/Europe.txt                // Colors Europe.txt
 ./mapcol -i input_maps/Balkans_solved.txt -c    // Checks if Balkans_solved.txt is colored validly
 ./mapcol -i input_maps/Europe10Uncolored.txt -c // Checks if Europe10Uncolored.txt is (partially) colored validly
 ./mapcol -i input_maps/no4colors.txt -n 5       // Colors no4colors.txt using 5 colors
