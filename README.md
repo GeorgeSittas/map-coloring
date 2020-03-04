@@ -51,7 +51,7 @@ The command syntax is as follows:
 ./genmap <n_countries> [<uncolperc> [<density> [<seed> [colornum]]]]
 ```
 
-In order to activate the _optional_ arguments, one must provide them in the order seen above.
+In order to pass the _optional_ arguments, one must provide them in the order seen above.
 
 - \<n_countries\> : number of countries in the map
 - \<uncolperc\> : percentage (0 to 100) of uncolored countries in the map (default: 100)
@@ -65,6 +65,7 @@ In order to activate the _optional_ arguments, one must provide them in the orde
 ./mapcol -i input_maps/Balkans_solved.txt -c    // Checks if Balkans_solved.txt is colored validly
 ./mapcol -i input_maps/Europe10Uncolored.txt -c // Checks if Europe10Uncolored.txt is (partially) colored validly
 ./mapcol -i input_maps/no4colors.txt -n 5       // Colors no4colors.txt using 5 colors
+./mapcol -i input_maps/triv4.txt -c -n 3        // Checks if triv4.txt can be colored, using only 3 colors
 
 ./genmap 100 | ./mapcol               // Colors a randomly generated map with 100 countries
 ./genmap 200 | ./mapcol | ./mapcol -c // Colors a randomly generated map with 200 countries and
