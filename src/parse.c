@@ -6,7 +6,7 @@
 // A map is described by a set of lines. Each line comprises
 // a sequence of words, which are separated by "white space"
 // (1 or more space/tab characters). This sequence of words
-// holds the info about a country's color and its neighbours.
+// contains the info about a country's color and its neighbours.
 //
 // For each line:
 // (1) first word      -> colour of the country (default: "nocolor")
