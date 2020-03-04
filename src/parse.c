@@ -49,7 +49,7 @@ List * read_map(FILE *fp) {
     if ((map[i] = list_create()) == NIL_LIST)
       terminate("read_map: out of memory");
 
-  char buf[1024]; // Line buffer
+  char buf[4096]; // Line buffer
   char *word;
 
   int n_countries = 0;
