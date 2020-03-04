@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "constants.h"
 #include "utilities.h"
 #include "ADT_List.h"
 #include "color.h"
