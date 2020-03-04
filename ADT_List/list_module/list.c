@@ -148,13 +148,8 @@ listNode list_get_node(List list, int index) {
 // If index is out of bounds, NULL is returned
 
 char * list_get(List list, int index) {
-  if (index < 0 || index >= list->size) return NULL;
-
-  listNode curr = list->dummy->next; // First non-dummy node
-  for (int i = 0; i < index; i++)
-    curr = curr->next;
-
-  return curr->str;
+  listNode target_node = list_get_node(list, index);
+  return target_node->str;
 }
 
 // Returns the string contained in a given node in a list (or
