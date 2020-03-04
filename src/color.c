@@ -133,7 +133,7 @@ bool uncolored(List *map, int country) {
 
 bool can_color(List *map, int country, char *color, bool check_map) {
   // Check if the country has already been colored
-  // (check_map is auxiliary, and is useful is_valid_coloring)
+  // (check_map is auxiliary, and is needed for is_valid_coloring)
 
   if (!check_map && !uncolored(map, country)) return false;
 
