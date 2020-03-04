@@ -15,8 +15,8 @@ CC = gcc
 
 # .o files and exec. file
 OBJS = $(MAPCOL_OBJ_DIR)/mapcol.o $(MAPCOL_OBJ_DIR)/parse.o \
-       $(MAPCOL_OBJ_DIR)/utilities.o $(MAPCOL_OBJ_DIR)/color.o \
-       $(LIST_MODULE)/list.o
+			 $(MAPCOL_OBJ_DIR)/utilities.o $(MAPCOL_OBJ_DIR)/color.o \
+			 $(LIST_MODULE)/list.o
 
 EXEC = mapcol
 
@@ -30,6 +30,8 @@ genmap: $(MAPCOL_OBJ_DIR)/genmap.o
 
 .SILENT: $(OBJS) $(MAPCOL_OBJ_DIR)/genmap.o # Silence implicit rule output
 .PHONY: clean
+
+all: $(EXEC) genmap
 
 clean:
 	@rm -f $(OBJS) $(EXEC) genmap $(MAPCOL_OBJ_DIR)/genmap.o
