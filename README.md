@@ -7,10 +7,10 @@ git clone https://github.com/GeorgeSittas/map-coloring.git
 ```
 
 ### Input format
-The input format is specified in [this](https://github.com/GeorgeSittas/map-coloring/blob/master/src/parse.c) file
+The input format is specified [here](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/parse.c#L1-L20).
 
 ### Random map generator
-An additional map generator program (see genmap.c) is also provided. See the\
+An additional map generator program (see [genmap.c](https://github.com/GeorgeSittas/map-coloring/blob/master/src/genmap.c)) is also provided. See the\
 "Usage" section below for instructions on how to use it.
 
 ### Compilation
@@ -71,7 +71,30 @@ In order to pass the _optional_ arguments, one must provide them in the order se
 ./genmap 200 | ./mapcol | ./mapcol -c // Colors a randomly generated map with 200 countries and
                                       // checks if the coloring is valid
 ```
-\
-\
+
+### Notes
+- The program can currently color maps consisting of 200 countries (generated with ./genmap 200)\
+in under 10 seconds (on average), but it becomes significantly slower as we increase \<n_countries\>.
+
+- An important part of the coloring algorithm is that countries (i.e. vertices, if map is seen as a graph)\
+with bigger degrees are colored first (this is [well known heuristic approach in graph coloring](https://en.wikipedia.org/wiki/Greedy_coloring)).
+
+### Possible optimizations
+
+- Make a **1-1 mapping between integers and countries** in the map, in order to avoid dealing with\
+strings (as maps become bigger and/or more dense, the string methods can cause the program to\
+slow down significantly).
+
+- **Create a lookup table**, in order to [avoid searching the whole adjacency list to find a country's\
+index](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/color.c#L89-L97).
+
+- **Keep track of the available colors** for each country, as the coloring process progresses, so that no\
+time is wasted in [searching for the next available color linearly](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/color.c#L132-L163). Deciding how to encode this information\
+for a country is crucial, since having a list of "available colors" becomes memory-heavy as map size grows.\
+One simple approach that can solve this problem, is to encode the available colors as a binary string (int)\
+that has as many bits as the total number of colors, and then process this string using bitwise operators.
+
+- **Try a different heuristic approach**, such as prioritizing countries that have less available colors.\
+
 \
 [1] see also: https://en.wikipedia.org/wiki/Graph_coloring
