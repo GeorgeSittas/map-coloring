@@ -55,7 +55,7 @@ listNode list_begin(List list);
 
 listNode list_next(List list, listNode node);
 
-// Returns the end of a list
+// Returns the end-signalling node of a list
 
 listNode list_end(List list);
 
