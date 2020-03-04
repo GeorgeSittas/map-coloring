@@ -1,12 +1,3 @@
-//////////////////////////////// TO DO
-//
-// Make a 1-1 correspondence between countries and integers so that
-// we can avoid dealing with string functions and strings in general.
-// That way, we can deal with integers and when the work's done we can
-// just inverse-map the integers back to the intial strings.
-//
-// Also: check how fast this runs for big inputs (see genmap.c)
-
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdio.h>
