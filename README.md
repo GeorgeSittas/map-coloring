@@ -33,7 +33,7 @@ make clean // Deletes ALL object & executable files inside map-coloring
 #### mapcol options
 The following command line options are available for mapcol:
 
-- \-i \<file\> : \<file\> becomes the input stream (i.e. map is read from \<file\>
+- \-i \<file\> : \<file\> becomes the input stream (i.e. map is read from \<file\>)
 - \-c : program **only checks** if input map is colored correctly
 - \-n \<num\> : \<num\> colors **can be used** to color the input map (1 ≤ \<num\> ≤ 10)
 
