@@ -49,9 +49,12 @@ char * get_name(List *map, int country);
 
 bool uncolored(List *map, int country);
 
-// Returns true if we can color a country with a specific color
+// Returns true if we can color a country with a specific color. If
+// the checking_validity flag is set to true, then this method won't
+// disregard already-colored countries as uncolorable (this is needed
+// in order to cross check whether a country has been validly colored)
 
-bool can_color(List *map, int country, char *color, bool check_map);
+bool can_color(List *map, int country, char *color, bool checking_validity);
 
 // Sorts a list of countries based on how many neighboring countries they have
 
