@@ -25,14 +25,14 @@ EXEC = mapcol
 $(EXEC): $(OBJS)
 	@$(CC) $(OBJS) -o $(EXEC)
 
-genmap: genmap.o
-	@$(CC) genmap.o -o genmap
+genmap: $(MAPCOL_OBJ_DIR)/genmap.o
+	@$(CC) $(MAPCOL_OBJ_DIR)/genmap.o -o genmap
 
-.SILENT: $(OBJS) genmap.o # Silence implicit rule output
+.SILENT: $(OBJS) $(MAPCOL_OBJ_DIR)/genmap.o # Silence implicit rule output
 .PHONY: clean
 
 clean:
-	@rm -f $(OBJS) $(EXEC) genmap genmap.o
+	@rm -f $(OBJS) $(EXEC) genmap $(MAPCOL_OBJ_DIR)/genmap.o
 
 run: $(EXEC)
 	@./$(EXEC)
