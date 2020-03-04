@@ -226,10 +226,13 @@ bool color_map(List *map, char **colors, int n_colors) {
 
 bool is_valid_coloring(List *map, char *clrs[], int max_clrs, int n_clrs) {
   for (int i = 0; i < options.n_countries; i++) {
-    if (!can_color(map, i, get_color(map, i), true))
+    char *curr_clr = get_color(map, i);
+    if (curr_clr == NULL) continue; // This country hasn't been colored yet
+
+    if (!can_color(map, i, curr_clr, true))
       return false; // invalid coloring: two neighbours have the same color
 
-    if (n_clrs < max_clrs-1 && !strcmp(get_color(map, i), clrs[n_clrs])) {
+    if (n_clrs < max_clrs-1 && !strcmp(curr_clr, clrs[n_clrs])) {
       printf("More than %d colors used\n", n_clrs);
       return false; // invalid coloring: n_clrs+1 colors used instead of n_clrs
     }
@@ -237,3 +240,4 @@ bool is_valid_coloring(List *map, char *clrs[], int max_clrs, int n_clrs) {
 
   return true;
 }
+
