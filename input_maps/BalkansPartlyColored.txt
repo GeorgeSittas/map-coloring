@@ -1,0 +1,11 @@
+yellow Albania Greece Montenegro North_Macedonia Serbia
+nocolor Bosnia_and_Herzegovina Croatia Montenegro Serbia
+green Bulgaria Greece North_Macedonia Romania Serbia Turkey
+nocolor Croatia Bosnia_and_Herzegovina Montenegro Serbia Slovenia
+nocolor Greece Albania Bulgaria North_Macedonia Turkey
+green Montenegro Albania Bosnia_and_Herzegovina Croatia Serbia
+blue North_Macedonia Albania Bulgaria Greece Serbia
+nocolor Romania Bulgaria Serbia
+red Serbia Albania Bosnia_and_Herzegovina Bulgaria Croatia Montenegro North_Macedonia Romania
+nocolor Slovenia Croatia
+blue Turkey Bulgaria Greece

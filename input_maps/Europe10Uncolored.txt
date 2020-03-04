@@ -1,0 +1,50 @@
+green Albania Greece Montenegro North_Macedonia Serbia
+green Andorra France Spain
+red Armenia Azerbaijan Georgia Turkey
+red Austria Czech_Republic Germany Hungary Italy Liechtenstein Slovakia Slovenia Switzerland
+green Azerbaijan Armenia Georgia Russia
+green Belarus Latvia Lithuania Poland Russia Ukraine
+red Belgium France Germany Luxembourg Netherlands
+green Bosnia_and_Herzegovina Croatia Montenegro Serbia
+blue Bulgaria Greece North_Macedonia Romania Serbia Turkey
+yellow Croatia Bosnia_and_Herzegovina Hungary Montenegro Serbia Slovenia
+red Cyprus
+blue Czech_Republic Austria Germany Poland Slovakia
+blue Denmark Germany
+green Estonia Latvia Russia
+green Finland Norway Russia Sweden
+blue France Andorra Belgium Germany Italy Luxembourg Monaco Spain Switzerland
+yellow Georgia Armenia Azerbaijan Russia Turkey
+yellow Germany Austria Belgium Czech_Republic Denmark France Luxembourg Netherlands Poland Switzerland
+red Greece Albania Bulgaria North_Macedonia Turkey
+blue Hungary Austria Croatia Romania Serbia Slovakia Slovenia Ukraine
+nocolor Iceland
+red Ireland United_Kingdom
+yellow Italy Austria France San_Marino Slovenia Switzerland Vatican_City
+yellow Kazakhstan Russia
+yellow Latvia Belarus Estonia Lithuania Russia
+blue Liechtenstein Austria Switzerland
+nocolor Lithuania Belarus Latvia Poland
+green Luxembourg Belgium France Germany
+blue Malta
+red Moldova Romania Ukraine
+red Monaco France
+blue Montenegro Albania Bosnia_and_Herzegovina Croatia Serbia
+nocolor Netherlands Belgium Germany
+nocolor North_Macedonia Albania Bulgaria Greece Serbia
+yellow Norway Finland Russia Sweden
+nocolor Poland Belarus Czech_Republic Germany Lithuania Slovakia Ukraine
+nocolor Portugal Spain
+nocolor Romania Bulgaria Hungary Moldova Serbia Ukraine
+blue Russia Azerbaijan Belarus Georgia Estonia Finland Kazakhstan Latvia Norway Ukraine
+blue San_Marino Italy
+red Serbia Albania Bosnia_and_Herzegovina Bulgaria Croatia Hungary Montenegro North_Macedonia Romania
+green Slovakia Austria Czech_Republic Hungary Poland Ukraine
+nocolor Slovenia Austria Croatia Hungary Italy
+nocolor Spain Andorra France Portugal
+red Sweden Finland Norway
+green Switzerland Austria France Germany Italy Liechtenstein
+green Turkey Armenia Bulgaria Georgia Greece
+yellow Ukraine Belarus Hungary Moldova Poland Romania Slovakia Russia
+green United_Kingdom Ireland
+nocolor Vatican_City Italy

@@ -1,0 +1,50 @@
+nocolor Albania FYROM Greece Montenegro Serbia
+nocolor Andorra France Spain
+nocolor Armenia Azerbaijan Georgia Turkey
+nocolor Austria Czech_Republic Germany Hungary Italy Liechtenstein Slovakia Slovenia Switzerland
+nocolor Azerbaijan Armenia Georgia Russia
+nocolor Belarus Latvia Lithuania Poland Russia Ukraine
+nocolor Belgium France Germany Luxembourg Netherlands
+nocolor Bosnia_and_Herzegovina Croatia Montenegro Serbia
+nocolor Bulgaria FYROM Greece Romania Serbia Turkey
+nocolor Croatia Bosnia_and_Herzegovina Hungary Montenegro Serbia Slovenia
+nocolor Cyprus
+nocolor Czech_Republic Austria Germany Poland Slovakia
+nocolor Denmark Germany
+nocolor Estonia Latvia Russia
+nocolor Finland Norway Russia Sweden
+nocolor FYROM Albania Bulgaria Greece Serbia
+nocolor France Andorra Belgium Germany Italy Luxembourg Monaco Spain Switzerland
+nocolor Georgia Armenia Azerbaijan Russia Turkey
+nocolor Germany Austria Belgium Czech_Republic Denmark France Luxembourg Netherlands Poland Switzerland
+nocolor Greece Albania Bulgaria FYROM Turkey
+nocolor Hungary Austria Croatia Romania Serbia Slovakia Slovenia Ukraine
+nocolor Iceland
+nocolor Ireland United_Kingdom
+nocolor Italy Austria France San_Marino Slovenia Switzerland Vatican_City
+nocolor Kazakhstan Russia
+nocolor Latvia Belarus Estonia Lithuania Russia
+nocolor Liechtenstein Austria Switzerland
+nocolor Lithuania Belarus Latvia Poland Russia
+nocolor Luxembourg Belgium France Germany
+nocolor Malta
+nocolor Moldova Romania Ukraine
+nocolor Monaco France
+nocolor Montenegro Albania Bosnia_and_Herzegovina Croatia Serbia
+nocolor Netherlands Belgium Germany
+nocolor Norway Finland Russia Sweden
+nocolor Poland Belarus Czech_Republic Germany Lithuania Russia Slovakia Ukraine
+nocolor Portugal Spain
+nocolor Romania Bulgaria Hungary Moldova Serbia Ukraine
+nocolor Russia Azerbaijan Belarus Georgia Estonia Finland Kazakhstan Latvia Lithuania Norway Poland Ukraine
+nocolor San_Marino Italy
+nocolor Serbia Albania Bosnia_and_Herzegovina Bulgaria Croatia FYROM Hungary Montenegro Romania
+nocolor Slovakia Austria Czech_Republic Hungary Poland Ukraine
+nocolor Slovenia Austria Croatia Hungary Italy
+nocolor Spain Andorra France Portugal
+nocolor Sweden Finland Norway
+nocolor Switzerland Austria France Germany Italy Liechtenstein
+nocolor Turkey Armenia Bulgaria Georgia Greece
+nocolor Ukraine Belarus Hungary Moldova Poland Romania Slovakia Russia
+nocolor United_Kingdom Ireland
+nocolor Vatican_City Italy

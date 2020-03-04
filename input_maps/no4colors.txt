@@ -1,0 +1,5 @@
+nocolor c1 c2 c3 c4 c5
+nocolor c2 c1 c3 c4 c5
+nocolor c3 c1 c2 c4 c5
+nocolor c4 c1 c2 c3 c5
+nocolor c5 c1 c2 c3 c4
