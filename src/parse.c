@@ -74,7 +74,7 @@ List * read_map(FILE *fp) {
         word[j] = buf[i];
 
         if (!is_valid(buf[i+1])) {
-          if (is_whitepsace(buf[i+1]) || buf[i+1] == '\n')
+          if (is_whitespace(buf[i+1]) || buf[i+1] == '\n')
             word[++j] = '\0';
           else
             terminate("read_map: invalid input"); // Unknown token found
