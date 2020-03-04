@@ -73,12 +73,7 @@ List * read_map(FILE *fp) {
         if (j >= MAX_WORD) terminate("read_map: word too big");
         word[j] = buf[i];
 
-        if (!is_valid(buf[i+1])) {
-          if (is_whitespace(buf[i+1]) || buf[i+1] == '\n')
-            word[++j] = '\0';
-          else
-            terminate("read_map: invalid input"); // Unknown token found
-        }
+        if (!is_valid(buf[i+1])) word[++j] = '\0';
       }
 
       list_insert_last(map[n_countries], word);
