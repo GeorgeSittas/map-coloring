@@ -59,7 +59,7 @@ List * read_map(FILE *fp) {
     if (n_countries >= MAX_COUNTRIES)
       terminate("read_map: too many lines");
 
-    // Parse every word for each line and save it in its corresponding list
+    // For each line, parse its words and save them in the corresponding list
     for (int i = 0; buf[i] != '\0'; i++) {
       for ( ; is_whitespace(buf[i]); i++); // Skip whitespace
 
