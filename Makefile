@@ -1,7 +1,7 @@
 
 # List module paths
-LIST_MODULE    = ./ADT_list/list_module
-LIST_INTERFACE = ./ADT_list/include
+LIST_MODULE    = ./ADT_List/list_module
+LIST_INTERFACE = ./ADT_List/include
 
 # Mapcol program paths
 MAPCOL_OBJ_DIR = ./src
