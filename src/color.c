@@ -129,13 +129,14 @@ bool uncolored(List *map, int country) {
   return (get_color(map, country) == NULL);
 }
 
-// Returns true if we can color a country with a specific color
+// Returns true if we can color a country with a specific color. If
+// the checking_validity flag is set to true, then this method won't
+// disregard already-colored countries as uncolorable (this is needed
+// in order to cross check whether a country has been validly colored)
 
-bool can_color(List *map, int country, char *color, bool check_map) {
-  // Check if the country has already been colored
-  // (check_map is auxiliary, and is needed for is_valid_coloring)
-
-  if (!check_map && !uncolored(map, country)) return false;
+bool can_color(List *map, int country, char *color, bool checking_validity) {
+  // Check if the country has already been colored, or if it's validly colored
+  if (!checking_validity && !uncolored(map, country)) return false;
 
   // Check if the country (vertex) has degree 0 => is always colorable
   if (!has_neighbours(map, country)) return true;
