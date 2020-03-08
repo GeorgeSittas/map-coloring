@@ -1,4 +1,4 @@
-# map-coloring
+# Map Coloring
  C program that solves the **[map coloring problem](https://en.wikipedia.org/wiki/Map_coloring)** [1].
 
 ### Install
