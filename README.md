@@ -77,7 +77,7 @@ In order to pass the _optional_ arguments, one must provide them in the order se
 in under 10 seconds (on average), but it becomes significantly slower as we increase \<n_countries\>.
 
 - An important part of the coloring algorithm is that countries (i.e. vertices, if map is seen as a graph)\
-with bigger degrees are colored first (this is [well known heuristic approach in graph coloring](https://en.wikipedia.org/wiki/Greedy_coloring)).
+with bigger degrees are colored first (this is [a well known heuristic approach in graph coloring](https://en.wikipedia.org/wiki/Greedy_coloring)).
 
 ### Possible optimizations
 
