@@ -1,3 +1,5 @@
+// Credits: Panagiotis Stamatopoulos (http://cgi.di.uoa.gr/~takis/)
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
