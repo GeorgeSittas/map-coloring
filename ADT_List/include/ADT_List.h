@@ -1,4 +1,4 @@
-// Interface file for the ADT List
+// Interface file for the ADT List (a list of strings)
 
 #pragma once
 
