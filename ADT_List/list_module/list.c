@@ -15,7 +15,10 @@
 // head node, an auxiliary pointer to the list's last node and an integer
 // representing the list's size. On the other hand, the list's node is
 // represented simply as a structure with a string field (i.e. the node's)
-// string value) and a pointer to the next node
+// string value) and a pointer to the next node.
+//
+// Important note: no extra space is allocated for each string in the list,
+// but a pointer to each string is kept instead.
 
 struct list {
   listNode dummy;
