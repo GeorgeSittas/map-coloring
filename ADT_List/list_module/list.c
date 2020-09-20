@@ -163,6 +163,9 @@ char * list_access(List list, listNode node) {
 }
 
 // Replaces a list node's string field with a new string
+//
+// Attention: the space in which the previous string was stored is _not_
+// deallocated, but it gets overwritten with the new string
 
 void list_replace(List list, listNode node, char *new_str) {
   if (node != NIL_NODE && new_str != NULL)
