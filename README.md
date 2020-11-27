@@ -89,8 +89,8 @@ slow down significantly).
 index](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/color.c#L89-L97).
 
 - **Keep track of the available colors** for each country, as the coloring process progresses, so that no time\
-is wasted in [searching for the next available color linearly](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/color.c#L132-L163). Deciding how to encode this information\
-for a country is crucial, since having a list of "available colors" becomes memory-heavy as map size grows.\
+is wasted in [searching for the next available color linearly](https://github.com/GeorgeSittas/map-coloring/blob/b7a8202f630aaae24cd155c7556905c39ec7b3a2/src/color.c#L132-L163). Deciding how to encode this information for a\
+country is crucial, since having a list of "available colors" becomes memory-heavy as map size grows.\
 One simple approach that can solve this problem, is to encode the available colors as a bitmap that has as\
 many bits as the total number of colors, and then process this string using bitwise operators.
 
